@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+  font-family: 'Bebas Neue', cursive;
+}
+.mainLogo {
+  margin: 2rem auto 0 3rem;
+  font-size: 64px;
+}
+
+.mainNavbar {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+.mainNavbar li {
+  list-style: none;
+}
+.mainNavbar li a {
+  text-decoration: none;
+  position: relative;
+}
+
+.mainNavbar li a:hover {
+  color: orangered;
+  transition: all 0.4s;
+}
+.mainNavbar li a::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: -10%;
+  top: 40%;
+  transition: 0.5s;
+}
+.mainNavbar li a:hover::after {
+  width: 110%;
+}

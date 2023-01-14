@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+
+.subes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.subes div h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+.subes div p {
+  font-size: 1.15rem;
+  line-height: 2.4rem;
+  font-family: 'Arima Madurai', cursive;
+}
+.subes div h1::first-letter {
+  color: whitesmoke;
+}
+.map {
+  border: 2px solid black;
+  margin-left: 50px;
+}

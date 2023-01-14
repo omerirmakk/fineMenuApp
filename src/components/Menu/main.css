@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .card {
+  margin-top: 5rem;
   font-family: 'Bebas Neue', cursive;
   background-color: white;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
-  max-width: 700px;
-  max-width: 50rem;
+  width: 45rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.5s;
+  max-height: 36rem;
+}
+.card:hover {
+  transform: translateZ(100px);
+  width: 55rem;
 }
 
 .card img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .card div {
   margin: 1rem;
@@ -23,4 +32,69 @@
 .recipe {
   display: block;
   color: rgb(107, 114, 128);
+}
+.hidden {
+  display: none;
+}
+.show-modal {
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Bebas Neue', cursive;
+  position: absolute;
+  margin-left: 85%;
+  bottom: 12%;
+  background-color: rgb(215, 25, 25);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 5rem;
+  height: 4rem;
+  transition: all 0.7s;
+}
+.show-modal:hover {
+  background-color: rgb(62, 48, 48);
+}
+.modal {
+  box-sizing: content-box;
+  padding: 1.5rem 2.5rem;
+  position: absolute;
+  left: 48%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: aliceblue;
+  height: 470px;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.modal h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  margin-top: -0.1rem;
+  color: rgba(22, 18, 18, 0.653);
+  letter-spacing: -2px;
+}
+.modal p {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: rgba(28, 26, 26, 0.953);
+}
+.close-modal {
+  position: absolute;
+  cursor: pointer;
+  right: 2rem;
+  top: 1.5rem;
+  border: none;
+  font-size: 3rem;
+  color: orangered;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.blurback {
+  filter: blur(15px);
 }

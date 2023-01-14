@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 0.5rem;
   font-family: 'Bebas Neue', cursive;
+  height: max-content;
 }
 .mainLogo {
   margin: 2rem auto 0 3rem;
   font-size: 64px;
+  color: white;
+  letter-spacing: 5px;
 }
 
 .mainNavbar {
@@ -19,9 +21,12 @@
 .mainNavbar li {
   list-style: none;
 }
+
 .mainNavbar li a {
   text-decoration: none;
   position: relative;
+  color: whitesmoke;
+  font-size: 1.4rem;
 }
 
 .mainNavbar li a:hover {

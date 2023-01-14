@@ -2,39 +2,101 @@
   {
     "id": "1",
     "title": "Kuskuslu Beyran",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "desc": " Osmanlı mutfağında sıkça yapılan ve şİfa dağıtan bİr çorbadır. Adı çorba olsa da bu lezzete sadece beyran demek daha İYİDİR",
+    "src": "images/beyran1.jpg",
+    "modalTitle": "Kuskuslu Beyran",
+    "modalDesc": "Türk mutfağının en eski lezzetlerinden beyran çorbası, çok yüksek ateşte pişirilmesinin yanı sıra içindeki kuzu eti, baharat ve bol sarımsakla kış aylarında bağışıklık sistemini sağlamlaştırarak hastalıklara karşı koruyucu oluyor. Gaziantep kahvaltılarının vazgeçilmezi beyran, bakır sahanlarda tek tek hazırlanıyor."
+  },
+  {
+    "id": "7",
+    "title": "Lebenİye Çorbası",
+    "desc": "Lebenİ İSMİ Arapçada süt anlamına gelen “leben” KELİMESİNden türeMİştİr. Yapımında yoğurt, dövme, nohut ve tuz kullanılır",
+    "src": "images/lebeniye.webp",
+    "modalTitle": "Lebenİye Çorbası",
+    "modalDesc": "Şanlıurfa'ya özgü tarifiyle yapılan Urfa Lebenisi, kolay sindirilebilir olması yanında serinletici özelliğe de sahip bir çorbadır; soğuk servis edilir. Lebeni ismi Arapçada süt anlamına gelen “leben” kelimesinden türemiştir. Yapımında yoğurt, dövme, nohut ve tuz kullanılır."
   },
 
   {
     "id": "2",
     "title": "Fıstıklı-Cevİzlİ-Kestanelİ İçlİ Köfte",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "desc": "Arap mutfağından Antep mutfağına yatay geçiş yapan İçlİ köfte",
+    "src": "images/iclikofte.jpg",
+    "modalTitle": "Fıstıklı-Cevİzlİ-Kestanelİ İçlİ Köfte",
+    "modalDesc": "Türkiye'nin belli bölgelerinin geleneksel yemekleri arasında olan içli köfte, yapımı zor ve uzun olduğu için gündelik yemek olmaktan çıkıp özel gün yemeği sınıfına girmiştir. İç harcı kıyma, soğan ve isteğe göre ceviz, maydanoz, biber salçası ve baharatlardan oluşuyor."
   },
 
   {
     "id": "3",
-    "title": "Jalapeno çİğ Köfte",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "title": "california roll çİğ Köfte",
+    "desc": " bulgur, İsot, kıyılmış et ve ÇEŞİTLİ baharatların yoğurulup karıştırılması İle hazırlanan, pİŞİRİlMEDEN tüketİlen yiyecektİr",
+    "src": "images/cigkofte.jpg",
+    "modalTitle": "california roll çİğ Köfte",
+    "modalDesc": "Çiğ köfte ; bulgur, isot, kıyılmış et, salça, soğan, maydanoz ve çeşitli baharatların yoğurulup karıştırılması ile hazırlanan, ısıl işlem görmeden (pişirilmeden) tüketilen, Şanlıurfa ve Adıyaman yöresine ait bir yiyecektir. Şanlıurfa ve Adıyaman'ın dışında; Adana, Gaziantep,Diyarbakır, Malatya ve Hatay gibi illerde de yöresel farklılıklar gösterebilen çiğ köfteler yapılır."
+  },
+  {
+    "id": "11",
+    "title": "Reyhanlı Kuru Dolma",
+    "desc": "kurutulmuş sebzelerİn İÇERİSİNE PİRİNÇ başta olmak üzere değİşen dİğer İç malzemelerİ konarak yapılan bİR yemektİR",
+    "src": "images/kurudolma.webp",
+    "modalTitle": "Reyhanlı Kuru Dolma",
+    "modalDesc": "Kuru dolma , kurutulmuş sebzelerin içerisine bulgur ya da pirinç başta olmak üzere yöresine göre değişen diğer iç malzemeleri konarak yapılan bir yemektir. Zeytinyağlı kuru dolma ya da kıymalı kuru dolma şeklinde farklı çeşitleri vardır."
+  },
+  {
+    "id": "8",
+    "title": "Sumaklı Ekşİlİ Köfte",
+    "desc": "Anadolu'ya AİT yöresel BİR yemek ÇEŞİDİDİR İÇİNDE köftelİk kıyma ve sebze çeşİtlerİ bulunur.",
+    "src": "images/eksili-kofte.jpg",
+    "modalTitle": "Sumaklı Ekşİlİ Köfte",
+    "modalDesc": "Sulu köfte, Anadolu'ya ait yöresel bir yemek çeşididir. Bulgurlu, pirinçli ve ekşili olmak üzere 3 farklı türde hazırlanır. İçinde köftelik kıyma ve sebze çeşitleri bulunur. Protein, demir, çinko ve folik asit bakımından zengin ve doyurucudur."
   },
   {
     "id": "4",
     "title": " Pistachio Kebap",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "desc": "FISTIKLI Kebap, mangalda meşe kömüründe veya odun fırınında, ayrıca günümüzde fırınlarda da PİŞİRİLEREK yeneBİLİR",
+    "src": "images/fistikli-kebap.webp",
+    "modalTitle": "Pistachio Kebap",
+    "modalDesc": "Kebap, mangalda meşe kömüründe veya odun fırınında yenen et yemeklerine verilen isimdir. Doğrudan doğruya ateşin üzerinde tutularak pişirilir"
   },
+
+  {
+    "id": "9",
+    "title": "Yenİdünya KebaBI",
+    "desc": "YeNİdünya kebabı, malta ERİĞİ İLE yapılan BİR ÇEŞİT kebaptır.",
+    "src": "images/yenidunya.jpg",
+    "modalTitle": "Yenİdünya KebaBI",
+    "modalDesc": "Kaynağı Gaziantep mutfağıdır. Yenidünyaların irisi seçilir, ikiye bölünür, çekirdek yuvası temizlenir. Yuvaya köfteler denk gelecek şekilde yenidünya+köfte+yenidünya şeklinde şişe dizilir. mangalda pişirilir. lavaşla beraber yenir. köftesi özel bir yöntemle hazırlanır, sadece tuz ve karabiber konulur."
+  },
+  {
+    "id": "10",
+    "title": "Sebze Şelalesİ Antep Tava",
+    "desc": "Koyun eTİ veya kıymanın tavada kavrulması İLE yapılır. Üzerİne, közlenmİş domateslerİn doğranması İle elde edİlen sos dökülür",
+    "src": "images/antep-tava.jpg",
+    "modalTitle": "Sebze Şelalesİ Antep Tava",
+    "modalDesc": "Antep tava bir çeşit tavadır. Gaziantep mutfağında yapılmaktadır. Koyun eti veya kıymanın tavada kavrulması ile yapılır. Üzerine, közlenmiş domateslerin doğranması ile elde edilen sos dökülür. Sos ve kavurmanın ayrı ayrı yapılmasından dolayı Antep tava adını almıştır."
+  },
+
   {
     "id": "5",
     "title": "Pistachio Baklava",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "desc": "Türk MUTFAĞINDA yer etmİş önemlİ bİr hamur tatlısıdır. İnce yufkaların arasına yöreye göre antep fıstığı konarak yapılır",
+    "src": "images/baklavaki.webp",
+    "modalTitle": "Pistachio Baklava",
+    "modalDesc": "Baklava; Türk, Orta Doğu, Balkan ve Güney Asya mutfaklarında yer etmiş önemli bir hamur tatlısıdır. İnce yufkaların arasına yöreye göre ceviz, antep fıstığı, badem veya fındık konarak yapılır. Genel olarak şeker şerbeti ile tatlandırılır. Ayrıca bal şerbeti de kullanılabilir. Bazı ticari firmalar kendi özel şerbetlerini kullanırlar."
   },
   {
     "id": "6",
     "title": "Süt Kaymaklı katmer",
-    "desc": "Mountain with great lanscape wiew and wonderful shit",
-    "src": "images/beyran1.jpg"
+    "desc": "Katmer, HAMURUN antep fıstığı konulup 4-5 kez katlanarak saçta PİŞİRİLMESİ İle elde edİlen hamur İŞİ YİYECEKTİR",
+    "src": "images/katmer.jpg",
+    "modalTitle": "Süt Kaymaklı katmer",
+    "modalDesc": "Katmer, Türk mutfağında ve Orta Asya'da yaygın olarak yapılan, hamurun yaklaşık 2 mm kalınlığında açılıp arasına yağ, haşhaş, tahin ya da antep fıstığı konulup 4-5 kez katlanarak saçta pişirilmesi ile elde edilen hamur işi yiyecektir."
+  },
+  {
+    "id": "12",
+    "title": "Pistachio Dolama",
+    "desc": "Tek ısırıkta VERDİĞİ lezzetle Fıstıklı  Dolama, Antep fıstığının tadıyla bütünleşİyor",
+    "src": "images/fistikli-dolama.jpg",
+    "modalTitle": "Pistachio Dolama",
+    "modalDesc": "Fıstık severlerin favorisi, Fıstıklı Dürüm ve Fıstıklı sarma diye de bilinen bol fıstıklı bir lezzet; Fıstıklı Dolama."
   }
 ]

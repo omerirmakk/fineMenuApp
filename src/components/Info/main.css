@@ -1,0 +1,39 @@
+.Info_container {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.Info_container h1 {
+  font-size: 10rem;
+  font-family: 'Bebas Neue', cursive;
+  color: whitesmoke;
+  letter-spacing: 55px;
+  margin-top: 5rem;
+}
+
+.Info_container p {
+  line-break: loose;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+.Info_container div {
+  display: flex;
+}
+.Info_container div:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.second {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+.second p {
+  line-height: 3rem;
+}

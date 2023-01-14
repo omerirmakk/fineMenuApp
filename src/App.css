@@ -5,22 +5,44 @@
   box-sizing: border-box;
   color: black;
 }
-.container {
-  width: 1250px;
-  margin: 0 auto;
-  height: max-content;
+
+body,
+html {
   background: rgb(251, 251, 254);
   background: linear-gradient(
     169deg,
-    rgba(251, 251, 254, 1) 25%,
+    rgb(233, 243, 241) 25%,
     rgba(64, 103, 55, 1) 75%
   );
+  scroll-behavior: smooth;
+}
+.container {
+  background: rgb(34, 195, 142);
+  background: linear-gradient(
+    0deg,
+    rgba(47, 107, 87, 0.905) 25%,
+    rgba(9, 29, 7, 1) 75%
+  );
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  margin: 0 auto;
+  height: max-content;
 }
 .cards {
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(1, fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
   background-color: transparent;
   justify-content: center;
-  object-fit: contain;
+}
+@media (350px < width < 1050px) {
+  .container {
+    width: max-content;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
 }

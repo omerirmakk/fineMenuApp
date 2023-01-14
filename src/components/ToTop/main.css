@@ -1,0 +1,19 @@
+.to-side {
+  position: relative;
+  right: 14rem;
+  bottom: -50%;
+  list-style: none;
+}
+.to-side a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.to-side a span {
+  font-size: 23rem;
+  letter-spacing: 2rem;
+  color: whitesmoke;
+}
+.to-side a span:hover {
+  color: black;
+}
